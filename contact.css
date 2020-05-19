@@ -1,0 +1,19 @@
+p{
+    color:rgb(15, 15, 148);
+    background-color: rosybrown;
+}
+body{
+    color:red;
+}
+a:link{
+color:blue;
+}
+a:visited{
+    color:purple;
+}
+a:hover{
+color:red;
+}
+a:active{
+    color:green;
+}

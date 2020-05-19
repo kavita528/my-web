@@ -1,0 +1,47 @@
+<!DOCTYPE>
+<html>
+<head>
+<title> MY FIRST WEBPAGE</title>
+<meta description="my content" content="web page">
+<meta http-equiv="  "  content type="  " content="text/html" charset="utf-8">
+<meta tag="viewport"   content="width=device-width", initial-scale=">
+<style>
+{
+color:red;}
+</style>
+<body>
+<script>
+function myFunction()
+{
+var x=document.getElementById("fname")
+x.value=x.value.touppercase();
+}
+</script>
+</body>
+<p><strong> This Is Html File</strong> </p>
+<p><u> this is very basic</u> </p>
+<p> hello &nbps &nbps  &nbps  &nbps  &nbps  i &nbps  &nbps  am &nbps  &nbps  kavita </em>  </p>
+<h1> header 1 <h1>
+<h2> header 2 </h2>
+<h3> header 3 </h3>
+<h4><em> header </em> </h4
+<p><strike> i am cool </strike></p>
+<h5> <font face="arial" size="32" color="blue"></font></h5>
+<h1> UNORDERED list </h1>
+<ul>
+<li> apple </li>
+<li> banana </li>
+<li> mango </li>
+<li> litchi </li>
+</ul>
+<h2> ordered list <h2>
+<ol>
+<li> apple </li>
+<li> banana </li>
+<li> mango </li>
+<li> litchi </li>
+</ol>
+</head>
+</html>
+
+ 

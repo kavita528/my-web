@@ -1,0 +1,65 @@
+<!DOCTYPE >
+<html>
+    <head></head>
+    <title> GALLERY OF RESORT</title>
+    <link rel="stylesheet" type="text/css" href="gallery.css">
+    <style>
+      body{
+          background: #222;
+          margin-top: 20px;
+          font-family: Arial, Helvetica, sans-serif;
+          color: white;
+      }
+      .thumbnails img{
+          height: 80px;
+          border: 4px solid #555;
+          padding: 1px;
+          margin: 0 10px 10px 0;
+          image width: 80px;
+          image height:50px;
+      }
+      .thumbnails img:hover{
+          border: 4px solid #00ccff;
+      }
+      .preview img{
+          border: 4px solid #444;
+          padding: 1px;
+          width: 80px;
+      }
+
+  </style>
+    <body>  
+        <h1><em><u>These Are Some Of The Beautiful Picture Of The Resort::</em> </u></h1>
+        <div id="container" align="center">
+          
+<br/>
+<div class="thumbnails">
+    <img onmouseover="preview.src=resort1.src" name="resort1" src="resort1.jpg"/>
+    <img onmouseover="preview.src=resort2.src" name="resort2" src="resort2.jpg"/>
+    
+    <img onmouseover="preview.src=resort3.src" name="resort3" src="resort3.jpg"/>
+    <img onmouseover="preview.src=resort4.src" name="resort4" src="resort4.jpg"/>
+    <img onmouseover="preview.src=resort5.src" name="resort5" src="resort5.jpg"/>
+    <img onmouseover="preview.src=resort6.src" name="resort6" src="resort6.jpg"/>
+    <img onmouseover="preview.src=resort7.src" name="resort7" src="resort7.jpg"/>
+    <img onmouseover="preview.src=resort8.src" name="resort8" src="resort8.jpg"/>
+    <img onmouseover="preview.src=resort.src" name="resort2" src="resort2.jpg"/>
+    <img onmouseover="preview.src=gallery2.src" name="gallery2" src="gallery2.jpg"/>
+    <img onmouseover="preview.src=gallery1.src" name="gallery1" src="gallery1.jpg"/>
+    <img onmouseover="preview.src=gallery4.src" name="gallery4" src="gallery4.jpg"/>
+    <img onmouseover="preview.src=gallery3.src" name="gallery3" src="gallery3.jpg"/>
+    <img onmouseover="preview.src=gallery5.src" name="gallery5" src="gallery5.jpg"/>
+    <img onmouseover="preview.src=gallery6.src" name="gallery6" src="gallery6.jpg"/>
+   <img onmouseover="preview.src=gallery7.src" name="gallery7" src="gallery7.jpg"/>
+  
+</div>
+<div class="preview" align="center">
+  <img name="preview" src="pool2.jpg"/>
+</div>      </div>
+      <script>
+          var bgcolor=new array("#029FD4", "#D43702","green","yellow","orange","pink","voilet","purple")
+          document.body.style.background=bgcolor[Math.floor(Math.random()*bgcolor.length)]
+      </script>
+        
+    </body>
+    </html>
